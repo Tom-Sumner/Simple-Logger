@@ -21,7 +21,7 @@ logger.info("This is information!")
 ```
 """
 
-from datetime import date, datetime
+from datetime import datetime
 
 now = datetime.now().strftime("%m/%d/%Y, %H:%M:%S:%f")[:-3]
 
